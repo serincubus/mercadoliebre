@@ -1,0 +1,20 @@
+header {
+    background-color: var(--color-amarillo);
+    background-size: contain;
+}
+
+div img{
+     
+    width: 50%;
+}
+
+.div_i_h5{
+    color:var(--color-gris-oscuro);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+} 
+
+nav{
+    color:var(--color-gris-oscuro);
+}
