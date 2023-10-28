@@ -2,26 +2,26 @@ header {
     
     background-color: var(--color-amarillo);
     background-size: contain;
-    height :360px;
+    padding-bottom: 7%;
     
 }
 
 
 
 .logo{
- width: 30%;
+ width: 35%;
  margin-top: 5%;
  margin-left: 5%;
 }
 
-div form{
-    
+.div_form{
+    width: 60%;
     margin-bottom: 2px;
     margin-left: 10px;
 }
 
-div svg{
-margin-left: 10px;
+.div_lupa{
+margin-left: 5%;
 }
 
 .div_i_h5{
@@ -38,14 +38,14 @@ nav a{
     }
 
 
-header nav ul svg{
+header nav ul i{
     padding-left: 5px;
-    color:black;
+    color:var(--color-gris-oscuro);
     
 }
 
 .espacio_nav_bottom{
-    margin-bottom: 40px;
+    padding-top: 4%;
 }
 
 .div_svg_burguer{
@@ -53,27 +53,31 @@ header nav ul svg{
     height:40px;
     background-color: var(--color-azul);
     padding-top: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-right: 5px;
-    padding-left: 1px;
+    padding-left: 3.5%;
     margin-left: 45%;
-    margin-top: 10px;
+    margin-top: 7%;
     border-radius: 10%;
 }
 
 main{
     background-color: var(--color-gris-claro);
-    background-size: contain;
-    height: 90%;
+    height: 4085,66px;
+        
+    
     
 }
 
 .tapiz_blanco{
-    background-color: rgb(255, 255, 255);
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 3%;
-    padding-bottom: 3%;
+    background-color: #fff;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+    
 }
 
 main h1 p{
@@ -87,24 +91,25 @@ section article div img{
     
 }
 
-footer {
+.footer_fondo_gris {
     background-color: var(--color-gris-claro);
-    margin-top: 1%;
-    margin-bottom: 1%;
+    padding-top: 2%;
     
     
 }
 
-.footer_tapiz_blanco{
-    background-color: rgb(255, 255, 255);
+.section_article_fondo_blanco{
+    background-color: #fff;
+    
     margin-left: 2%;
     margin-right: 2%;
  }
  
- .icono_tarjeta{
+ .footer_icono{
     
  font-size: 2em;
- color: var(--color-azul);
+ color: var(--color-celeste);
  text-align: center;
- margin-bottom: 10px;
+ padding-top: 14%;
+ 
 }
