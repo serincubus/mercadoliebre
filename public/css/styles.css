@@ -7,7 +7,7 @@
       --color-celeste:#1259c3;
       --color-gris-oscuro: #666;
       --color-gris-claro: #ebebeb;
-      --color-verde:#39b54a;
+      --color-verde:#00b15a;
       }
        
 
@@ -27,12 +27,16 @@ h1 {
  
 h2{
     font-size: 18px;
-    text-align: center; 
+     
 }
+
+.h3_off{
+    color: var(--color-verde) 
+} 
 
 h3 p{
     font-size: 16px;
-    text-align: center;
+    
 }
 
 h4{
