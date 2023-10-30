@@ -30,9 +30,7 @@ h2{
      
 }
 
-.h3_off{
-    color: var(--color-verde) 
-} 
+
 
 h3 p{
     font-size: 16px;
@@ -44,4 +42,30 @@ h4{
     padding-left: 4%;
     margin-top: 5%;
     margin-bottom: 2%;
+}
+
+
+  
+ 
+ .h3_separacion_producto{
+     margin-top:10px;
+ 
+}
+
+
+@media (min-width:769px){
+
+}
+
+@media (min-width: 361px){
+    .div_descripcion_articulos{
+        border-top: solid 1px var(--color-gris-claro);
+        margin: 15px; 
+ }
+  }
+
+  @media(max-width: 360px){
+    .div_descripcion_articulos{
+    display:none
+  }
 }

@@ -5,7 +5,7 @@ body{
 header {
     
     background-color: var(--color-amarillo);
-    width: 90%;
+  
     margin:0 auto;
     background-size: contain;
     padding-bottom: 7%;
@@ -61,14 +61,17 @@ header nav ul i{
     padding-top: 8px;
     padding-bottom: 20px;
     padding-right: 5px;
-    padding-left: 3.5%;
+    padding-left: 3%;
     margin-left: 45%;
     margin-top: 7%;
     border-radius: 10%;
 }
 
-main{
+body{
     background-color: var(--color-gris-claro);
+}
+main{
+   
     width: 90%;
     margin: 0 auto;
     padding-bottom: 1px;
@@ -98,12 +101,7 @@ section article div img{
     
 }
 
-.div_descripcion_articulos{
-       border-top: solid 1px var(--color-gris-claro);
-       margin-left: 8px; 
-       padding-top: 8px;
-       margin-bottom: 4px;
-}
+
 
 .h3_separacion_producto{
     margin-top:10px;
@@ -113,13 +111,13 @@ section article div img{
 .footer_fondo_gris {
     background-color: var(--color-gris-claro);
     padding-top: 2%;
-    
+    width: 90%;
+    margin: 0 auto;
     
 }
 
 .section_article_fondo_blanco{
     background-color: #fff;
-    
     margin-left: 2%;
     margin-right: 2%;
  }
@@ -132,3 +130,5 @@ section article div img{
  padding-top: 14%;
  
 }
+
+
