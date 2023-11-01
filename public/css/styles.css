@@ -77,7 +77,7 @@ h4{
  
 
   @media(max-width: 360px){
-    .div_descripcion_articulos{
+    .h3_separacion_producto{
          display:none
     }     
     header nav {
