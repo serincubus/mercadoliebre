@@ -54,21 +54,25 @@ h4{
 
 
 @media (min-width:769px){
+        
+    }
 
-}
+
 
 @media (min-width: 361px){
     .div_descripcion_articulos{
         border-top: solid 1px var(--color-gris-claro);
         padding: 15px;
-        }
+    }
+    header section nav{
+    display: flex;
+    
+    }      
     
     main section article{
           box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-    .h3_off{
-        color:var(--color-verde)
-    }    
+  
         
     .div_svg_burguer{
         display: none;
