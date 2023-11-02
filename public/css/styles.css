@@ -60,14 +60,37 @@ h4{
 
 
 @media (min-width: 361px){
-    .div_descripcion_articulos{
+    .div_linea_gris{
         border-top: solid 1px var(--color-gris-claro);
-        padding: 15px;
+        padding: 0 15px 15px 15px;
     }
-    header section nav{
-    display: flex;
+
+    .div_linea_gris{
+        display: flex;
+        justify-content: end;
+    }
+    /* .menu_horizontal{
+    display: flex; */
     
-    }      
+    .misma_fila {
+        display: flex;
+    }
+
+
+    h2 {
+        width: 30%;
+    }
+   .h3_off{
+        
+        width: 60%;
+        justify-content: center;
+            
+    }
+
+    
+
+     
+          
     
     main section article{
           box-shadow: 0px 0px 10px rgb(100, 100, 100);
