@@ -58,19 +58,35 @@ h4{
     
     main section{
         display: flex;
+        flex-wrap: wrap;
         outline: solid blue 2px;
        }
     
      main section article{
-        
         outline: solid red 2px;
-       }     
+        width: 17%;
+        flex-grow: 1;
+        margin: 2%;
+       }    
+     .tapiz_blanco{
+        margin-left: 1%;
+        margin-right: 1%;
+     }   
     }
 
 
 
-@media (min-width: 768px){
-     
+@media (min-width: 768px)  and (max-width:1023px ){
+    
+    header{
+        display: flex;
+
+    }  
+
+    .logo{
+        
+    }
+
     .div_svg_burguer{
         display: none;
     } 
@@ -82,12 +98,18 @@ h4{
 main section{
     display: flex;
     outline: solid blue 2px;
+    flex-wrap: wrap;
    }
 
  main section article{
    outline: solid red 2px;
-   flex:1;    
+   width: 40%;
+ 
  }  
+h1{
+    font-size: 3rem;
+}
+
  } 
 
 @media(max-width: 320px){

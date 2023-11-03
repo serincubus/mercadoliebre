@@ -15,20 +15,42 @@ header {
 
 
 .logo{
- width: 35%;
+ width: 50%;
  margin-top: 5%;
- margin-left: 5%;
+ margin-left: 1%;
 }
 
-.div_form{
-    width: 60%;
-    margin-bottom: 2px;
-    margin-left: 10px;
+form{
+    
+    margin-right: 0 auto;
+    margin-top: 9%;
+  
+  
 }
 
-.div_lupa{
-margin-left: 5%;
+.lupa{
+    
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    position: relative;
+    left: 290px;
+    top: -32px;
+    align-items: end;
+    
+   
 }
+
+header section{
+    display: flex;
+    flex-wrap: wrap;
+  
+  
+}
+
 
 .div_i_h5{
     color:var(--color-gris-oscuro);
@@ -36,7 +58,7 @@ margin-left: 5%;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin-bottom: 15px;
-    margin-top: 30px ;
+   
 } 
 
 nav a{
