@@ -134,11 +134,9 @@ header nav ul i{
     main section{
         display: flex;
         flex-wrap: wrap;
-        outline: solid blue 2px;
-       }
+        }
     
      main section article{
-        outline: solid red 2px;
         width: 17%;
         flex-grow: 1;
         margin: 2%;
@@ -219,12 +217,10 @@ header nav ul i{
         }
     main section{
     display: flex;
-    outline: solid blue 2px;
     flex-wrap: wrap;
    }
 
  main section article{
-   outline: solid red 2px;
    width: 40%;
  
  }  
