@@ -51,7 +51,82 @@ h4{
 }
 
 
+nav a{
+    color:var(--color-gris-oscuro);
+    
+    }
+
+
+header nav ul i{
+    padding-left: 5px;
+    color:var(--color-gris-oscuro);
+}
+
+
+
+
 @media (min-width:1024px){
+    header section{
+        display: flex;
+        }
+    .logo{
+            width: 30%;
+            margin-top: 5%;
+            margin-left: 3%;
+           }    
+
+     form input{
+    
+            width: 25%;
+            margin-top: 0%;
+            margin-left: 5%;
+            position: absolute;
+           }
+
+        .lupa{
+    
+            display: block;
+            font-size: 16px;
+            padding: 5px;
+            width: 20px;
+            height: 30px;
+            position: relative;
+            left: 310px;
+            top: 88px;
+           
+        }    
+
+    header section div h5{
+        position: relative;
+        width: 100%;
+        left: 100%;
+        margin-top: 38%;
+        margin-left: 50%;
+        
+    }
+.navbar{
+    display: flex;
+}
+
+.nav1 li{
+    display: inline;
+    
+}
+.nav2 li{
+    display: inline;
+    }
+
+    header div nav{
+        flex-grow: 1;  
+        margin-top: 10%;
+        margin-left: 10%;
+        padding-bottom: 2%;
+    }
+    
+    .div_svg_burguer{
+        display: none;
+    }     
+    
     .div_svg_burguer{
         display: none;
     }
@@ -77,25 +152,72 @@ h4{
 
 
 @media (min-width: 768px)  and (max-width:1023px ){
-    
-    header{
+    header section{
         display: flex;
-
-    }  
-
-    .logo{
+        }
         
+        
+       .logo{
+            width: 30%;
+            margin-top: 5%;
+            margin-left: 3%;
+           }    
+
+        form input{
+    
+            width: 25%;
+            margin-top: 0%;
+            margin-left: 2%;
+            position: absolute;
+          
+        }
+
+        .lupa{
+    
+            display: block;
+            font-size: 16px;
+            padding: 5px;
+            width: 20px;
+            height: 30px;
+            position: relative;
+            left: 210px;
+            top: 65px;
+            ;
+        }    
+
+    header section div h5{
+        position: relative;
+        width: 100%;
+        left: 66%;
+        margin-top: 25%;
+        margin-left: 25%;
+     }
+.navbar{
+    display: flex;
+     }
+
+.nav1 li{
+    display: inline;
+    }
+.nav2 li{
+    display: inline;
     }
 
+    header div nav{
+        flex-grow: 1;  
+        margin-top: 10%;
+        margin-left: 5%;
+        padding-bottom: 2%;
+    }
+    
     .div_svg_burguer{
         display: none;
     } 
- 
-      
+
      main section article{
      box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-main section{
+    main section{
     display: flex;
     outline: solid blue 2px;
     flex-wrap: wrap;
@@ -113,7 +235,18 @@ h1{
  } 
 
 @media(max-width: 320px){
+    header{
+    padding-bottom: 7%;
+    }
 
+    .div_i_h5{
+        color:var(--color-gris-oscuro);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin-bottom: 15px;
+       
+    } 
 .h3_separacion_producto{
     display:none
 }     

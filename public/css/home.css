@@ -8,7 +8,7 @@ header {
   
     margin:0 auto;
     background-size: contain;
-    padding-bottom: 7%;
+    
     
 }
 
@@ -22,7 +22,7 @@ header {
 
 form{
     
-    margin-right: 0 auto;
+    
     margin-top: 9%;
   
   
@@ -51,30 +51,9 @@ header section{
 }
 
 
-.div_i_h5{
-    color:var(--color-gris-oscuro);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    margin-bottom: 15px;
-   
-} 
-
-nav a{
-    color:var(--color-gris-oscuro);
-    
-    }
 
 
-header nav ul i{
-    padding-left: 5px;
-    color:var(--color-gris-oscuro);
-    
-}
 
-.espacio_nav_bottom{
-    padding-top: 4%;
-}
 
 .div_svg_burguer{
     width: 40px;
