@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url("./home.css");
+@import url("./register.css");
 
 :root{
       --color-amarillo :#EAC926;
@@ -75,7 +76,7 @@ header nav ul i{
             margin-left: 3%;
            }    
 
-     form input{
+     .form_input{
     
             width: 25%;
             margin-top: 0%;

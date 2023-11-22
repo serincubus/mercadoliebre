@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercado libre</title>
+    <script src="https://kit.fontawesome.com/02b2ba4a5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
+
+<header> 
+    <section class="form_lupa">  
+       
+          <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">   
+       
+         
+          <form action="">
+             <input type="text" placeholder="Buscar" id="search">
+          </form>
+          <i class="fa-solid fa-magnifying-glass lupa"></i>
+    
+         <div class="div_i_h5">
+           
+           <h5><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h5>
+         </div>
+       </section>
+   <div class="menu_horizontal navbar">
+       <nav>
+         <ul class="nav1">
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">Tiendas Oficiales</a></li>
+            <li><a href="">Vender</a></li>
+            <li><a href="">Ayuda</a></li>
+         </ul>
+       </nav>
+       <nav class="espacio_nav_bottom">
+         <ul class="nav2">
+            <li><a href="/register">Creá tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+            <li><a href="">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+            <li><a href="">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+         </ul>
+       </nav>
+   </div>    
+       
+          <div class="div_svg_burguer">
+           <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+       </div>
+       </header>
+      
+       <main>
+        <form class="ordenar_form" action="/register" method="get">
+            <input type="text" name="nombreapellido" placeholder="Nombre y apellido"></input>
+            <input type="text" name="usuario" placeholder="Nombre de usuario"></input>
+            <input type="email" name="correo" placeholder="E-mail">
+
+        <label for="fn">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="fn">
+
+            <input type="text" name="domicilio" placeholder="Domicilio">
+            <label for="perfil">Perfil de usuario</label>
+            <input type="radio" name="perfildeusuario" value="Comprador" id="perfil">Comprador
+            <input type="radio" name="perfildeusuario" value="Vendedor" id="perfil">Vendedor
+
+            <label for="intereses">Intereses</label>
+            <input type="checkbox" name="intereses" id="intereses">Electro
+            <input type="checkbox" name="intereses" id="intereses">Moda
+            <input type="checkbox" name="intereses" id="intereses">Hogar
+            <input type="checkbox" name="intereses" id="intereses">jugueteria
+            <input type="checkbox" name="intereses" id="intereses">Vida sana
+
+            <input type="file" name="foto" accept=".jpg">Foto de usuario
+            <input type="password" name="contraseña" placeholder="Contraseña">
+            <input type="password" name="contraseña" placeholder="Confirmar contraseña">
+            <a href="home.html"><button type="submit">Enviar</button></a> 
+            
+            
+        
+        
+          </form>
+
+       </main>
+    
+      </body>
+</html>
