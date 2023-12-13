@@ -1,3 +1,21 @@
+.lupa{
+    
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 145px;
+    top: 85px;
+    align-items: end;
+    
+   
+}
+
+
+
+
 .ordenar_form{
 display: flex;
 flex-direction: column;
@@ -8,16 +26,40 @@ flex-direction: column;
 
 
 .input_mobile{
-
-    margin-bottom: 10%;
-    border-radius: 1%;
-    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 280px;
+    height: 35px;
+    color: var(--color-gris-oscuro);
    
     border-color: var(--color-gris-claro);
+    border:0;
+    padding-left: 5px;
 }
 
-.input_radio_mobile{
+input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+ .input_radio_label{
     
+    margin-bottom: 5%;
+    color:#000;
+    font-weight:bolder;
+ } 
 
-
+.perfil_comprador_vendedor{
+    display: flex;
+    justify-content: space-between;
 }
+
+.radio_perfil_usuario{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around
+}
+
+
