@@ -1,28 +1,19 @@
 .lupa{
-    
     display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 145px;
-    top: 85px;
+    left: 292px;
+    top: 26px;
     align-items: end;
-    
-   
 }
-
-
-
 
 .ordenar_form{
 display: flex;
 flex-direction: column;
-
 }
-
-
 
 
 .input_mobile{
@@ -54,12 +45,41 @@ input[type="radio"] {
 .perfil_comprador_vendedor{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .radio_perfil_usuario{
     display: flex;
     width: 50vw;
     justify-content: space-around
+}
+
+label p{
+    font-weight: bolder;
+    }
+
+.checkbox{
+    display: flex;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+
+}
+
+.checkbox p{
+    margin-left: 22%;
+   
+}
+
+.boton_carga_foto{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.submit_boton p{
+    font-weight: bolder;
 }
 
 

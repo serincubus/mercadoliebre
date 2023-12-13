@@ -55,7 +55,7 @@
             <input class="input_mobile" type="text" name="usuario" placeholder="Nombre de usuario"></input>
             <input class="input_mobile" type="email" name="correo" placeholder="E-mail">
 
-        <label for="fn">Fecha de nacimiento</label>
+        <label for="fn"><p>Fecha de nacimiento</p></label>
             <input class="input_mobile" type="date" name="nacimiento" id="fn">
 
             <input class="input_mobile" type="text" name="domicilio" placeholder="Domicilio">
@@ -73,18 +73,35 @@
             </div>
             
           </div>
+          <div> 
+          <label for="intereses"><p>Intereses</p></label>
+          <div class="intereses_checkbox">
+            <div class="checkbox">
+              <input type="checkbox" name="intereses" id="intereses"><p>Electro</p>
+            </div>  
+            
+            <div class="checkbox">
+            <input type="checkbox" name="intereses" id="intereses"><p>Moda</p>
+            </div>
+            
+            <div class="checkbox">
+            <input type="checkbox" name="intereses" id="intereses"><p>Hogar</p>
+            </div>
+            
+            <div class="checkbox"> 
+            <input type="checkbox" name="intereses" id="intereses"><p>jugueteria</p>
+            </div>
+            
+            <div class="checkbox">
+            <input type="checkbox" name="intereses" id="intereses"><p>Vida sana</p>
+            </div>
+          </div>   
+          <label for="foto"><p>Foto de usuario</p></label>
+          <input type="file" name="foto" accept=".jpg" class="boton_carga_foto">
 
-            <label for="intereses">Intereses</label>
-            <input type="checkbox" name="intereses" id="intereses">Electro
-            <input type="checkbox" name="intereses" id="intereses">Moda
-            <input type="checkbox" name="intereses" id="intereses">Hogar
-            <input type="checkbox" name="intereses" id="intereses">jugueteria
-            <input type="checkbox" name="intereses" id="intereses">Vida sana
-
-            <input type="file" name="foto" accept=".jpg">Foto de usuario
-            <input type="password" name="contraseña" placeholder="Contraseña">
-            <input type="password" name="contraseña" placeholder="Confirmar contraseña">
-            <a href="home.html"><button type="submit">Enviar</button></a> 
+            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile">
+            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile">
+            <a href="home.html"><button type="submit" class="submit_boton"><p>Enviar</p></button></a> 
             
             
         
