@@ -17,7 +17,7 @@
        
          
           <form action="">
-             <input type="text" placeholder="Buscar" id="search">
+             <input type="text" placeholder="Buscar" id="search" class="buscador">
           </form>
           <i class="fa-solid fa-magnifying-glass lupa"></i>
     
@@ -50,17 +50,17 @@
        </header>
       
        <main>
-        <form class="ordenar_form" action="/register" method="get">
-            <input class="input_mobile" type="text" name="nombreapellido" placeholder="Nombre y apellido"></input>
-            <input class="input_mobile" type="text" name="usuario" placeholder="Nombre de usuario"></input>
-            <input class="input_mobile" type="email" name="correo" placeholder="E-mail">
+        <form class="ordenar_form ordenar_form_register_tablet" action="/register" method="get">
+            <input class="input_mobile input_tablet" type="text" name="nombreapellido" placeholder="Nombre y apellido"></input>
+            <input class="input_mobile input_tablet" type="text" name="usuario" placeholder="Nombre de usuario"></input>
+            <input class="input_mobile input_tablet" type="email" name="correo" placeholder="E-mail">
 
         <label for="fn"><p>Fecha de nacimiento</p></label>
-            <input class="input_mobile" type="date" name="nacimiento" id="fn">
+            <input class="input_mobile input_tablet" type="date" name="nacimiento" id="fn">
 
-            <input class="input_mobile" type="text" name="domicilio" placeholder="Domicilio">
+            <input class="input_mobile input_tablet" type="text" name="domicilio" placeholder="Domicilio">
             
-            <label  class="input_radio_label"  for="perfil">Perfil de usuario</label>
+            <label  class="input_radio_label"  for="perfil"><p>Perfil de usuario</p></label>
             
           <div class="perfil_comprador_vendedor">
           
@@ -76,32 +76,33 @@
           <div> 
           <label for="intereses"><p>Intereses</p></label>
           <div class="intereses_checkbox">
-            <div class="checkbox">
+            <div class="checkbox checkbox_tablet">
               <input type="checkbox" name="intereses" id="intereses"><p>Electro</p>
             </div>  
             
-            <div class="checkbox">
+            <div class="checkbox checkbox_tablet"">
             <input type="checkbox" name="intereses" id="intereses"><p>Moda</p>
             </div>
             
-            <div class="checkbox">
+            <div class="checkbox checkbox_tablet"">
             <input type="checkbox" name="intereses" id="intereses"><p>Hogar</p>
             </div>
             
-            <div class="checkbox"> 
+            <div class="checkbox checkbox_tablet""> 
             <input type="checkbox" name="intereses" id="intereses"><p>jugueteria</p>
             </div>
             
-            <div class="checkbox">
+            <div class="checkbox checkbox_tablet"">
             <input type="checkbox" name="intereses" id="intereses"><p>Vida sana</p>
             </div>
           </div>   
           <label for="foto"><p>Foto de usuario</p></label>
-          <input type="file" name="foto" accept=".jpg" class="boton_carga_foto">
+          <input type="file" name="foto" accept=".jpg" class="boton_carga_foto boton_foto_tablet">
 
-            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile">
-            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile">
-            <a href="home.html"><button type="submit" class="submit_boton"><p>Enviar</p></button></a> 
+            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile input_tablet">
+            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile input_tablet">
+            <a href="home.html"><button type="submit" class="submit_boton boton_submit_tablet"><p>Enviar</p></button></a> 
+            <button type="submit" class="submit_boton boton_submit_tablet"><p>Borrar</p></button>
             
             
         

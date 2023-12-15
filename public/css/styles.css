@@ -67,6 +67,7 @@ header nav ul i{
 
 
 @media (min-width:1024px){
+
     header section{
         display: flex;
         }
@@ -162,12 +163,15 @@ header nav ul i{
             margin-left: 3%;
            }    
 
-        form input{
+        .buscador{
     
             width: 25%;
             margin-top: 0%;
             margin-left: 2%;
             position: absolute;
+            top:11%;
+            left:33%;
+
           
         }
 
@@ -178,9 +182,9 @@ header nav ul i{
             padding: 5px;
             width: 20px;
             height: 30px;
-            position: relative;
-            left: 210px;
-            top: 65px;
+            position: absolute;
+            left: 57%;
+            top: 10.3%;
             ;
         }    
 
@@ -212,8 +216,9 @@ header nav ul i{
     .div_svg_burguer{
         display: none;
     } 
-
-     main section article{
+/*home*/
+    
+    main section article{
      box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
     main section{
@@ -229,7 +234,68 @@ h1{
     font-size: 3rem;
 }
 
- } 
+ 
+
+/*register*/
+
+.input_tablet{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 35px;
+    color: var(--color-gris-oscuro);
+   
+    border-color: var(--color-gris-claro);
+    border:0;
+    padding-left: 5px;
+}
+.ordenar_form_register_tablet{
+    display: flex;
+    flex-direction:column ;   
+    }
+
+label p{
+        font-weight: bolder;
+        text-align: center;
+        }  
+        
+.checkbox_tablet{
+            display: flex;
+            width: 40%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 9%;
+        
+}  
+
+.boton_foto_tablet{
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%;
+
+}    
+.boton_submit_tablet{
+           display: block;
+           width: 60%;
+           padding:1%;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 1%;
+           border-radius: 5px;
+           background-color: var(--color-celeste);
+           color: var(--color-gris-claro);
+
+
+}
+
+}
+
 
 @media(max-width: 320px){
     header{

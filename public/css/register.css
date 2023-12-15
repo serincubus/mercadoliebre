@@ -5,8 +5,8 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 292px;
-    top: 26px;
+    left: 144px;
+    top: 84px;
     align-items: end;
 }
 
@@ -17,9 +17,11 @@ flex-direction: column;
 
 
 .input_mobile{
-    margin: 0 auto;
+    display: block;
     margin-bottom: 5%;
     margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
     width: 280px;
     height: 35px;
@@ -78,8 +80,16 @@ label p{
     border-radius: 5px;
 }
 
-.submit_boton p{
-    font-weight: bolder;
+.submit_boton{
+display: block;
+width: 60%;
+padding:1%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1%;
+border-radius: 5px;
+background-color: var(--color-celeste);
+color: var(--color-gris-claro);
+font-weight: bolder;
 }
-
 
