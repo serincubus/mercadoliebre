@@ -11,12 +11,12 @@
     
 
 <header> 
-    <section class="form_lupa">  
+    <section class="logo_form_lupa">  
        
           <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">   
        
          
-          <form action="">
+          <form action="" form_input>
              <input type="text" placeholder="Buscar" id="search" class="buscador">
           </form>
           <i class="fa-solid fa-magnifying-glass lupa"></i>
@@ -51,14 +51,14 @@
       
        <main>
         <form class="ordenar_form ordenar_form_register_tablet" action="/register" method="get">
-            <input class="input_mobile input_tablet" type="text" name="nombreapellido" placeholder="Nombre y apellido"></input>
-            <input class="input_mobile input_tablet" type="text" name="usuario" placeholder="Nombre de usuario"></input>
-            <input class="input_mobile input_tablet" type="email" name="correo" placeholder="E-mail">
+            <input class="input_mobile input_tablet input_desktop" type="text" name="nombreapellido" placeholder="Nombre y apellido" required></input>
+            <input class="input_mobile input_tablet input_desktop" type="text" name="usuario" placeholder="Nombre de usuario" required></input>
+            <input class="input_mobile input_tablet input_desktop" type="email" name="correo" placeholder="E-mail" required>
 
         <label for="fn"><p>Fecha de nacimiento</p></label>
-            <input class="input_mobile input_tablet" type="date" name="nacimiento" id="fn">
+            <input class="input_mobile input_tablet input_desktop" type="date" name="nacimiento" id="fn">
 
-            <input class="input_mobile input_tablet" type="text" name="domicilio" placeholder="Domicilio">
+            <input class="input_mobile input_tablet input_desktop" type="text" name="domicilio" placeholder="Domicilio" required>
             
             <label  class="input_radio_label"  for="perfil"><p>Perfil de usuario</p></label>
             
@@ -99,8 +99,8 @@
           <label for="foto"><p>Foto de usuario</p></label>
           <input type="file" name="foto" accept=".jpg" class="boton_carga_foto boton_foto_tablet">
 
-            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile input_tablet">
-            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile input_tablet">
+            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile input_tablet input_desktop">
+            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile input_tablet input_desktop">
             <a href="home.html"><button type="submit" class="submit_boton boton_submit_tablet"><p>Enviar</p></button></a> 
             <button type="submit" class="submit_boton boton_submit_tablet"><p>Borrar</p></button>
             
