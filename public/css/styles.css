@@ -64,7 +64,7 @@ header nav ul i{
 }
 
 
-
+::placeholder { color: black; }
 
 @media (min-width:1024px){
 
@@ -81,7 +81,7 @@ header nav ul i{
             margin-left: 3%;
            }    
 
-     .form_input{
+     .buscador{
             width: 25%;
             margin-top: 8%;
             margin-left: 5%;
@@ -96,25 +96,31 @@ header nav ul i{
             width: 20px;
             height: 30px;
             position: absolute;
-            left: 310px;
-            top: 88px;
+            left: 624px;
+            top: 80px;
            
         }    
-    .buscador{
-            width: 25%;
-           /* margin-top: 0%;
-            margin-left: 2%;*/
+
+    form{
+        margin-top: 4%;
         
-            
-     
+    } 
+
+
+    .buscador{
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+             
         }
         
-    .div_i_h5{
-        position: absolute;
-        width: 35%;
-        left: 100%;
-        top: 10%;
-        left: 25%;        
+    .header_subtitulo_hand{
+             margin-top: 7%;
+             margin-left: 2%;  
+                   
+    }
+    h5 {
+     font-size: 18px;
     }
 .navbar{
     display: flex;
@@ -177,6 +183,22 @@ header nav ul i{
     padding-left: 5px;
 }
 
+label p{
+    text-align: center;
+}
+
+.checkbox{
+    margin-left: 10%;
+}
+
+.boton_foto_tablet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}    
+
 }
 
 
@@ -190,17 +212,23 @@ header nav ul i{
        .logo{
             width: 30%;
             margin-top: 5%;
-            margin-left: 3%;
+            margin-left: 2%;
            }    
 
+
+
+           form{
+            margin-top: 6%;
+            margin-left: 0.5%;        
+          
+        }   
         .buscador{
     
-            width: 25%;
-            margin-top: 0%;
+            width: 240px;
+            height: 30px;
+            margin-top: 2%;
             margin-left: 2%;
-            position: absolute;
-            top:11%;
-            left:33%;
+            border-radius: 5px;
      
         }
 
@@ -209,21 +237,20 @@ header nav ul i{
             display: block;
             font-size: 16px;
             padding: 5px;
-            width: 20px;
-            height: 30px;
+            width: 50px;
+            height: 50px;
             position: absolute;
-            left: 57%;
-            top: 10.3%;
-            ;
-        }    
+            left: 61%;
+            top: 5%;
+            
+        } 
+        
+        .header_subtitulo_hand{
+            margin-top: 7%;
+            margin-left: 2%;
+        }
 
-    header section div h5{
-        position: relative;
-        width: 100%;
-        left: 66%;
-        margin-top: 25%;
-        margin-left: 25%;
-     }
+   
 .navbar{
     display: flex;
      }
@@ -293,12 +320,12 @@ label p{
         text-align: center;
         }  
         
-.checkbox_tablet{
+.checkbox{
             display: flex;
             width: 40%;
             margin-top: 5%;
             margin-bottom: 5%;
-            margin-left: 9%;
+            margin-left: 10%;
         
 }  
 
@@ -319,9 +346,7 @@ label p{
            border-radius: 5px;
            background-color: var(--color-celeste);
            color: var(--color-gris-claro);
-
-
-}
+           }
 
 }
 
@@ -331,17 +356,35 @@ label p{
     padding-bottom: 7%;
     }
 
-    .div_i_h5{
+    .buscador{
+        
+        margin-left: 1%;
+    }
+
+    .lupa{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 148px;
+        top: 61px;
+        align-items: end;
+    }
+
+    .header_subtitulo_hand{
         color:var(--color-gris-oscuro);
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         margin-bottom: 15px;
+        margin-top: 5%;
        
     } 
 .h3_separacion_producto{
     display:none
-}     
+    }     
 
 header nav {
       display: none;

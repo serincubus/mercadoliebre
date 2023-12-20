@@ -36,7 +36,7 @@
        <nav class="espacio_nav_bottom">
          <ul class="nav2">
             <li><a href="/register">Creá tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
-            <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+            <li><a href="">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
             <li><a href="">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
          </ul>
        </nav>
@@ -53,59 +53,13 @@
        
       
        <main>
-        <form class="ordenar_form ordenar_form_register_tablet" action="/register" method="get">
-            <input class="input_mobile input_tablet input_desktop" type="text" name="nombreapellido" placeholder="Nombre y apellido" required></input>
+        <form class="ordenar_form ordenar_form_register_tablet" action="/login" method="get">
             <input class="input_mobile input_tablet input_desktop" type="text" name="usuario" placeholder="Nombre de usuario" required></input>
-            <input class="input_mobile input_tablet input_desktop" type="email" name="correo" placeholder="E-mail" required>
+            <input class="input_mobile input_tablet input_desktop" type="password" name="password" placeholder="Elegi tu contraseña" required>
 
-        <label for="fn"><p>Fecha de nacimiento</p></label>
-            <input class="input_mobile input_tablet input_desktop" type="date" name="nacimiento" id="fn">
-
-            <input class="input_mobile input_tablet input_desktop" type="text" name="domicilio" placeholder="Domicilio" required>
+        
+            <a href="/"><button type="submit" class="submit_boton boton_submit_tablet"><p>Enviar</p></button></a> 
             
-            <label  class="input_radio_label"  for="perfil"><p>Perfil de usuario</p></label>
-            
-          <div class="perfil_comprador_vendedor">
-          
-            <div class="radio_perfil_usuario"> 
-            <input type="radio" name="perfildeusuario" value="Comprador" id="perfil"><p>Comprador</p></input>
-            </div>
-            
-            <div class="radio_perfil_usuario">
-            <input type="radio" name="perfildeusuario" value="Vendedor" id="perfil"><p>Vendedor</p></input>
-            </div>
-            
-          </div>
-          <div> 
-          <label for="intereses"><p>Intereses</p></label>
-          <div class="intereses_checkbox">
-            <div class="checkbox checkbox_tablet">
-              <input type="checkbox" name="intereses" id="intereses"><p>Electro</p>
-            </div>  
-            
-            <div class="checkbox checkbox_tablet"">
-            <input type="checkbox" name="intereses" id="intereses"><p>Moda</p>
-            </div>
-            
-            <div class="checkbox checkbox_tablet"">
-            <input type="checkbox" name="intereses" id="intereses"><p>Hogar</p>
-            </div>
-            
-            <div class="checkbox checkbox_tablet""> 
-            <input type="checkbox" name="intereses" id="intereses"><p>jugueteria</p>
-            </div>
-            
-            <div class="checkbox checkbox_tablet"">
-            <input type="checkbox" name="intereses" id="intereses"><p>Vida sana</p>
-            </div>
-          </div>   
-          <label for="foto"><p>Foto de usuario</p></label>
-          <input type="file" name="foto" accept=".jpg" class="boton_carga_foto boton_foto_tablet">
-
-            <input type="password" name="contraseña" placeholder="Contraseña" class="input_mobile input_tablet input_desktop">
-            <input type="password" name="contraseña" placeholder="Confirmar contraseña" class="input_mobile input_tablet input_desktop">
-            <a href="home.html"><button type="submit" class="submit_boton boton_submit_tablet"><p>Enviar</p></button></a> 
-            <button type="submit" class="submit_boton boton_submit_tablet"><p>Borrar</p></button>
             
             
         
